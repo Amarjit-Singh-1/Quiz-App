@@ -27,7 +27,6 @@ export default function QuestionComponent() {
             Question No. {state.currQues}/
             {state.quizzes[Number(quizId) - 1].questions.length}
           </p>
-          {/* <p className="text-lg font-bold">Your Score is {state.score}</p> */}
           <p className="text-2xl font-semibold">{ques.question}</p>
           <Options
             quizId={quizId}
