@@ -33,12 +33,6 @@ export function quizReducer(state: InitialState, action: Action) {
         quizzes: [...quizzes],
         score: state.score + action.payload.score
       };
-    // case "DECREMENT":
-    //   return {
-    //     ...state,
-    //     // answer: action.payload.idx,
-    //     score: state.score - action.payload.negativeScore
-    //   };
     default:
       return state;
   }

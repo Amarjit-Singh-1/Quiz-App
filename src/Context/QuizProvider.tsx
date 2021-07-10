@@ -4,7 +4,6 @@ import { Quiz } from "../Data/quiz.types";
 import { quizOne, quizTwo } from "../Data/getQuiz";
 import { Action } from "../Reducers/quizReducer";
 
-// type Action = { type: "SET_ANSWER" } | { type: "SHOW_SCORE" };
 type Dispatch = (action: Action) => void;
 type StatusState = "starting" | "finished" | "reset";
 
@@ -26,7 +25,7 @@ type QuizProviderProps = {
 };
 
 export const quizState: InitialState = {
-  // player:"guest",
+
   currQues: 1,
   quizzes: [quizOne, quizTwo],
   score: 0,

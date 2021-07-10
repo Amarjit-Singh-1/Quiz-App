@@ -1,5 +1,4 @@
 import { Quiz } from "./quiz.types";
-// answer: null
 const quizOne: Quiz = {
   id: 1,
   quizName: "Marvel Cinematic Universe",
